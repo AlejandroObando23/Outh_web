@@ -62,7 +62,7 @@ function Register() {
                                     </div>
                                     <div className="col-12 form-animated-element stagger-5 mt-3">
                                         <div className="form-footer text-center">
-                                            ¿Ya tienes una cuenta? <a href="/">Inicia sesión</a>
+                                            ¿Ya tienes una cuenta? <a href="/customer/login">Inicia sesión</a>
                                         </div>
                                     </div>
                                 </div>

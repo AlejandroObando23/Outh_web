@@ -10,8 +10,8 @@ function App() {
 
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Login />} />
-        <Route path="/customer/register" element={<Register />} />
+        <Route path="/" element={<Register />} />
+        <Route path="/customer/login" element={<Login />} />
         <Route path="/dashboard" element={
           <ProtectedRoute>
             <Dashboard />

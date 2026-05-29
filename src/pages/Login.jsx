@@ -63,7 +63,7 @@ function Login() {
                                     </div>
                                     <div className="col-12 form-animated-element stagger-4">
                                         <div className="form-footer mt-3 text-center">
-                                            ¿No tienes una cuenta? <a href="/customer/register">Regístrate aquí</a>
+                                            ¿No tienes una cuenta? <a href="/">Regístrate aquí</a>
                                         </div>
                                     </div>
                                 </div>
