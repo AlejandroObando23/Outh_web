@@ -56,6 +56,10 @@ function Register() {
                                             }}
                                         />
                                     </div>
+                                    <div className="col-12 form-animated-element stagger-4 mt-2">
+                                        <button className="btn-submit-custom w-100" type="button" onClick={(e) => e.preventDefault()}>Registrar <i
+                                                className="fas fa-user-check ms-2"></i></button>
+                                    </div>
                                     <div className="col-12 form-animated-element stagger-5 mt-3">
                                         <div className="form-footer text-center">
                                             ¿Ya tienes una cuenta? <a href="/">Inicia sesión</a>

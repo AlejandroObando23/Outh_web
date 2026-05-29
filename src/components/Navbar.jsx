@@ -8,7 +8,7 @@ function Navbar() {
                     <img src="/img/BarberShop_PandaBlackAndWhite.png"
                         alt="Logo Barbería PANDA Black And White"
                         style={{ height: '58px', width: 'auto', marginRight: '12px' }} />
-                    <h1 className="mb-0 text-primary text-uppercase" style={{ fontSize: '1.5rem' }}>Barbería PANDA</h1>
+                    <h1 className="mb-0 text-primary text-uppercase">Barbería PANDA Black And White</h1>
                 </div>
             </a>
             <button type="button" className="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -32,7 +32,7 @@ function Navbar() {
 
                     <a href="/contact" className="nav-item nav-link" data-section="contact">Contacto</a>
 
-                    <a href="/" className="btn btn-primary rounded-0 py-2 px-lg-4 mt-3 mt-lg-0 ms-lg-3 align-self-start align-self-lg-center">
+                    <a href="/customer/login" className="btn btn-primary rounded-0 py-2 px-lg-4 mt-3 mt-lg-0 ms-lg-3 align-self-start align-self-lg-center">
                         Agendar Cita
                         <i className="fa fa-arrow-right ms-3"></i>
                     </a>

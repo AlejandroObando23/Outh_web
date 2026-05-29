@@ -57,6 +57,10 @@ function Login() {
                                             }}
                                         />
                                     </div>
+                                    <div className="col-12 form-animated-element stagger-3 mt-2">
+                                        <button className="btn-submit-custom w-100" type="button" onClick={(e) => e.preventDefault()}>Iniciar Sesión <i
+                                                className="fas fa-sign-in-alt ms-2"></i></button>
+                                    </div>
                                     <div className="col-12 form-animated-element stagger-4">
                                         <div className="form-footer mt-3 text-center">
                                             ¿No tienes una cuenta? <a href="/customer/register">Regístrate aquí</a>
