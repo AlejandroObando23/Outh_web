@@ -16,21 +16,22 @@ function Navbar() {
             </button>
             <div className="collapse navbar-collapse" id="navbarCollapse">
                 <div className="navbar-nav ms-auto p-4 p-lg-0">
-                    <a href="/" className="nav-item nav-link active" data-section="home">Inicio</a>
-                    <a href="/about" className="nav-item nav-link" data-section="about">Nosotros</a>
-                    <a href="/service" className="nav-item nav-link" data-section="service">Servicios</a>
+                    <a href="/" className="nav-item nav-link active text-uppercase" data-section="home">Inicio</a>
+                    <a href="/about" className="nav-item nav-link text-uppercase" data-section="about">Nosotros</a>
+                    <a href="/service" className="nav-item nav-link text-uppercase" data-section="service">Servicios</a>
 
                     <div className="nav-item dropdown">
-                        <a href="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Páginas</a>
+                        <a href="#" className="nav-link dropdown-toggle text-uppercase" data-bs-toggle="dropdown">Páginas</a>
                         <div className="dropdown-menu m-0">
-                            <a href="/price" className="dropdown-item" data-section="price">Precios</a>
-                            <a href="/team" className="dropdown-item" data-section="team">Barberos</a>
-                            <a href="/open" className="dropdown-item" data-section="open">Horarios</a>
-                            <a href="/testimonial" className="dropdown-item" data-section="testimonial">Opiniones</a>
+                            <a href="/price" className="dropdown-item text-uppercase" data-section="price">Precios</a>
+                            <a href="/team" className="dropdown-item text-uppercase" data-section="team">Barberos</a>
+                            <a href="/open" className="dropdown-item text-uppercase" data-section="open">Horarios</a>
+                            <a href="/testimonial" className="dropdown-item text-uppercase" data-section="testimonial">Opiniones</a>
+                            <a href="/404" className="dropdown-item text-uppercase" data-section="notFound">Página 404</a>
                         </div>
                     </div>
 
-                    <a href="/contact" className="nav-item nav-link" data-section="contact">Contacto</a>
+                    <a href="/contact" className="nav-item nav-link text-uppercase" data-section="contact">Contacto</a>
 
                     <a href="/customer/login" className="btn btn-primary rounded-0 py-2 px-lg-4 mt-3 mt-lg-0 ms-lg-3 align-self-start align-self-lg-center">
                         Agendar Cita
