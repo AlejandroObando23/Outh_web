@@ -48,8 +48,8 @@ function Login() {
                                     <h2 className="text-center" style={{ fontSize: '2.2rem' }}>Inicio de sesión</h2>
                                     <p className="text-center mt-2">Usa tu cuenta de Google para acceder o crear una cuenta nueva.</p>
                                 </div>
-                                <div className="d-flex flex-column align-items-center mt-3">
-                                    <div className="form-animated-element stagger-1 w-100 d-flex justify-content-center">
+                                <div className="d-flex flex-column align-items-center mt-4">
+                                    <div className="form-animated-element stagger-1 w-100 d-flex justify-content-center mb-3">
                                         <GoogleLogin
                                             onSuccess={handleGoogleLogin}
                                             onError={() => {
@@ -57,11 +57,10 @@ function Login() {
                                             }}
                                         />
                                     </div>
-                                    <div className="form-animated-element stagger-2 mt-4 text-center">
-                                        ¿No tienes una cuenta? <br/>
-                                        <a href="/customer/register" className="btn btn-outline-primary mt-2">
-                                            Regístrate aquí
-                                        </a>
+                                    <div className="col-12 form-animated-element stagger-4">
+                                        <div className="form-footer mt-3 text-center">
+                                            ¿No tienes una cuenta? <a href="/customer/register">Regístrate aquí</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
