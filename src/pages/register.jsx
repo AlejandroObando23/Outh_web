@@ -1,4 +1,6 @@
 import { GoogleLogin } from '@react-oauth/google';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 function Register() {
 
@@ -30,7 +32,9 @@ function Register() {
 
 
     return (
-        <main id="main-content" className="d-flex align-items-center justify-content-center" style={{ minHeight: 'calc(100vh - 150px)' }}>
+        <>
+            <Navbar />
+            <main id="main-content" className="d-flex align-items-center justify-content-center" style={{ minHeight: 'calc(100vh - 150px)' }}>
             <div className="container-xxl py-5">
                 <div className="container">
                     <div className="row justify-content-center">
@@ -65,7 +69,9 @@ function Register() {
                     </div>
                 </div>
             </div>
-        </main>
+            </main>
+            <Footer />
+        </>
     );
 }
 

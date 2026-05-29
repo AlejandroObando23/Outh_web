@@ -1,0 +1,45 @@
+import React from 'react';
+
+function Navbar() {
+    return (
+        <nav className="navbar navbar-expand-lg bg-secondary navbar-dark sticky-top py-lg-0 px-lg-5">
+            <a href="/" className="navbar-brand ms-4 ms-lg-0" data-section="home">
+                <div className="d-flex align-items-center">
+                    <img src="/img/BarberShop_PandaBlackAndWhite.png"
+                        alt="Logo Barbería PANDA Black And White"
+                        style={{ height: '58px', width: 'auto', marginRight: '12px' }} />
+                    <h1 className="mb-0 text-primary text-uppercase" style={{ fontSize: '1.5rem' }}>Barbería PANDA</h1>
+                </div>
+            </a>
+            <button type="button" className="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span className="navbar-toggler-icon"></span>
+            </button>
+            <div className="collapse navbar-collapse" id="navbarCollapse">
+                <div className="navbar-nav ms-auto p-4 p-lg-0">
+                    <a href="/" className="nav-item nav-link active" data-section="home">Inicio</a>
+                    <a href="/about" className="nav-item nav-link" data-section="about">Nosotros</a>
+                    <a href="/service" className="nav-item nav-link" data-section="service">Servicios</a>
+
+                    <div className="nav-item dropdown">
+                        <a href="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Páginas</a>
+                        <div className="dropdown-menu m-0">
+                            <a href="/price" className="dropdown-item" data-section="price">Precios</a>
+                            <a href="/team" className="dropdown-item" data-section="team">Barberos</a>
+                            <a href="/open" className="dropdown-item" data-section="open">Horarios</a>
+                            <a href="/testimonial" className="dropdown-item" data-section="testimonial">Opiniones</a>
+                        </div>
+                    </div>
+
+                    <a href="/contact" className="nav-item nav-link" data-section="contact">Contacto</a>
+
+                    <a href="/" className="btn btn-primary rounded-0 py-2 px-lg-4 mt-3 mt-lg-0 ms-lg-3 align-self-start align-self-lg-center">
+                        Agendar Cita
+                        <i className="fa fa-arrow-right ms-3"></i>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    );
+}
+
+export default Navbar;
