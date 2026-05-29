@@ -35,26 +35,27 @@ function Register() {
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-lg-8 wow fadeIn" data-wow-delay="0.1s">
-                            <div className="form-wrapper mx-auto">
+                            <div className="form-wrapper mx-auto p-5" style={{ backgroundColor: '#1c1924', borderRadius: '15px', maxWidth: '500px', boxShadow: '0px 10px 30px rgba(0,0,0,0.8)' }}>
                                 <div className="form-header text-center mb-4">
-                                    <p className="d-inline-block bg-dark text-primary py-1 px-4 mb-3"
-                                        style={{ fontSize: '0.9rem', fontWeight: 600, letterSpacing: '1px', textTransform: 'uppercase' }}>
-                                        Nuevo Usuario</p>
-                                    <h2 className="text-center" style={{ fontSize: '2.2rem' }}>Crea tu cuenta</h2>
-                                    <p className="text-center mt-2">Regístrate rápidamente usando tu cuenta de Google.</p>
+                                    <h2 className="text-center text-uppercase fw-bold text-white mb-2" style={{ fontSize: '1.8rem', letterSpacing: '2px' }}>Registro de Usuario</h2>
+                                    <p className="text-center" style={{ fontSize: '0.9rem', color: '#a0a0a0' }}>Crea tu cuenta para acceder a nuestros servicios.</p>
                                 </div>
-                                <div className="d-flex flex-column align-items-center mt-3">
-                                    <div className="form-animated-element stagger-1 w-100 d-flex justify-content-center">
+                                <div className="d-flex flex-column align-items-center mt-5">
+                                    <div className="form-animated-element stagger-1 w-100 d-flex justify-content-center mb-4">
                                         <GoogleLogin
                                             onSuccess={handleGoogleRegister}
                                             onError={() => {
                                                 console.log('Register Failed');
                                             }}
+                                            theme="filled_black"
+                                            shape="rectangular"
+                                            text="signup_with"
+                                            width="300"
                                         />
                                     </div>
                                     <div className="form-animated-element stagger-2 mt-4 text-center">
-                                        ¿Ya tienes una cuenta? <br/>
-                                        <a href="/" className="btn btn-outline-primary mt-2">
+                                        <span style={{ color: '#a0a0a0', fontSize: '0.9rem' }}>¿Ya tienes una cuenta?</span> <br/>
+                                        <a href="/" className="text-white mt-1 d-inline-block text-decoration-none" style={{ fontSize: '0.95rem', borderBottom: '1px solid #fff' }}>
                                             Inicia sesión aquí
                                         </a>
                                     </div>
