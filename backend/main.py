@@ -8,7 +8,7 @@ from google.auth.transport import requests as google_requests
 
 import os
 
-GOOGLE_CLIENT_ID = os.getenv("GOOGLE_CLIENT_ID")
+GOOGLE_CLIENT_ID = os.getenv("GOOGLE_CLIENT_ID", "").strip()
 
 
 
